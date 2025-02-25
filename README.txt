@@ -1,28 +1,21 @@
-REMIX DEFAULT WORKSPACE
+🔹 Project Name: MediChainX – Blockchain-Powered EHR System
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+🔹 Problem Statement:
 
-This workspace contains 3 directories:
+Current EHR systems suffer from data silos, security risks, and lack of interoperability between hospitals.
+Patients lack control over their medical records and face difficulties accessing data across hospitals or borders.
+Cybersecurity threats and data breaches in healthcare are rising, making privacy and data integrity a major concern.
+🔹 Proposed Solution:
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
-
-SCRIPTS
-
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
-
-For the deployment of any other contract, just update the contract name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
-
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+A decentralized, blockchain-based EHR system that ensures data privacy, interoperability, and patient ownership.
+Medical records are encrypted and stored on IPFS, with blockchain-based access control for security.
+Smart contracts regulate access, ensuring only authorized hospitals, doctors, or insurers can view records with patient consent.
+Emergency MultiSig Access Mechanism allows hospitals to retrieve records in critical cases with multi-party approval.
+Cross-Border Health Data Access via Decentralized Identity (DID) enables seamless treatment globally.
+🔹 Key Benefits:
+✅ Enhanced Security: Blockchain ensures tamper-proof records and prevents unauthorized modifications.
+✅ Patient-Centric: Patients have full control over who can access their medical history.
+✅ Seamless Data Sharing: Hospitals can exchange patient records in real-time without compatibility issues.
+✅ Emergency-Ready: MultiSig smart contracts enable immediate access in life-threatening situations.
+✅ Fraud Prevention: Eliminates insurance fraud and medical record tampering.
+✅ Scalability & Compliance: Aligns with HIPAA & GDPR standards for legal and ethical medical data handling.
